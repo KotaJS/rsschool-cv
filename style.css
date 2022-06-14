@@ -13,7 +13,7 @@ html {
 body {
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 800;
     
 }
 
@@ -44,6 +44,7 @@ a {
     padding: 0 50px;
     display: flex;
     justify-content: end;
+    background-color: #c50527;
 }
 
 .header nav ul {
@@ -52,7 +53,7 @@ a {
 }
 
 .header nav ul li a {
-    color: #ff0c37;
+    color: black;
 }
 .header nav ul li+li {
     margin-left: 50px;
@@ -97,6 +98,7 @@ h1 {
 .main ul li {
     padding: 10px;
     color: #c50527;
+    
 }
 
 .main p {
@@ -110,4 +112,30 @@ h1 {
     margin: 0px;
     color: #c50527;
     padding: 0px 50px 0 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#c50527;
+    padding: 10px 50px 10px 40px;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+        
+}
+
+.footer p {
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.footer a {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
 }
